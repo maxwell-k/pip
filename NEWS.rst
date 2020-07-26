@@ -9,8 +9,8 @@
 
 .. towncrier release notes start
 
-20.2b1 (2020-05-21)
-===================
+pip 20.2b1 (2020-05-21)
+=======================
 
 Bug Fixes
 ---------
@@ -24,8 +24,8 @@ Improved Documentation
 
 - Add GitHub issue template for reporting when the dependency resolver fails (`#8207 <https://github.com/pypa/pip/issues/8207>`_)
 
-20.1.1 (2020-05-19)
-===================
+pip 20.1.1 (2020-05-19)
+=======================
 
 Deprecations and Removals
 -------------------------
@@ -2373,8 +2373,8 @@ Improved Documentation
   repository without ``#egg=Package``).
 
 
-0.1.4
-=====
+pip 0.1.4
+=========
 
 - Added an option ``--install-option`` to pass options to pass
   arguments to ``setup.py install``
@@ -2398,16 +2398,16 @@ Improved Documentation
   using this.
 
 
-0.1.3
-=====
+pip 0.1.3
+=========
 
 - Always use ``svn checkout`` (not ``export``) so that
   ``tag_svn_revision`` settings give the revision of the package.
 - Don't update checkouts that came from ``.pybundle`` files.
 
 
-0.1.2
-=====
+pip 0.1.2
+=========
 
 - Improve error text when there are errors fetching HTML pages when
   seeking packages.
@@ -2418,8 +2418,8 @@ Improved Documentation
 - Fix ``dependency_links`` for finding packages.
 
 
-0.1.1
-=====
+pip 0.1.1
+=========
 
 - Fixed a NameError exception when running pip outside of a virtualenv
   environment.
@@ -2427,7 +2427,7 @@ Improved Documentation
 - Fixed use of ``hashlib.md5`` on python2.5+ (also from Prabhu Ramachandran)
 
 
-0.1
-===
+pip 0.1
+=======
 
 - Initial release
